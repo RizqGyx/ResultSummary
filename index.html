@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; font-weight: bold;}
+    .attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
+  </style>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <div class="container">
+      <div class="result">
+        <h3 class="result_head">Your Result</h3>
+        <div class="circle">
+          <h1 class="score">76</h1>
+          <p class="full">of 100</p>
+        </div>
+        <div class="text">
+          <h2 class="text_head">Great</h2>
+          <p>You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+    
+      <div class="summary">
+        <table width="100%">
+          <tr>
+            <td colspan="2" class="summary_head"><h3>Summary</h3></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td width="150px"><img src="./assets/images/icon-reaction.svg" alt="Reaction"><b class="rct" width=""> Reaction</b></td>
+            <td><b>80 / </b>100</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><img src="./assets/images/icon-memory.svg" alt="Memory"><b class="mmr"> Memory</b></td>
+            <td><b>92 / </b>100</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><img src="./assets/images/icon-verbal.svg" alt="Verbal"><b class="vbl"> Verbal</b></td>
+            <td><b>61 / </b>100</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><img src="./assets/images/icon-visual.svg" alt="Visual"><b class="vsa"> Visual</b></td>
+            <td><b>72 / </b>100</td>
+          </tr>
+        </table>
+        <button class="btn">Continue</button>
+      </div>
+    </div>
+
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Muhammad Rizki</a>.
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
